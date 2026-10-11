@@ -97,7 +97,7 @@ export default function EnchantingDateProposalApp() {
     
     <motion.div key="step0" className="text-center" {...fadeInUp}>
       <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        Hey Will you go on a date with me?
+        Hey Simmy, it's been a while. Let me take you out on a date ?
       </h1>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -234,14 +234,14 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step2" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={2} totalSteps={6}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What shall we feast on, my dear?
+        What shall we feast on fine girl?
       </h2>
       <div className="grid grid-cols-2 gap-4 md:gap-6 mb-8">
         {[
-          { name: "Lasagna", icon: <Utensils className="w-6 h-6" /> },
-          { name: "Chicken Pie", icon: <Utensils className="w-6 h-6" /> },
+          { name: "Pasta", icon: <Utensils className="w-6 h-6" /> },
+          { name: "Steak", icon: <Utensils className="w-6 h-6" /> },
           { name: "Chicken Shawarma", icon: <Utensils className="w-6 h-6" /> },
-          { name: "Snack Platter", icon: <Coffee className="w-6 h-6" /> },
+          { name: "Sushi", icon: <Utensils className="w-6 h-6" /> },
           { name: "Mix rice", icon: <Utensils className="w-6 h-6" /> },
         ].map(({ name, icon }) => (
           <SelectButton
