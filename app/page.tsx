@@ -35,7 +35,7 @@ interface Answers {
   date: Date | null;
   time: string;
   food: string[];
-  movie: string;
+  drink: string;
   excitement: number;
 }
 
@@ -58,7 +58,7 @@ export default function EnchantingDateProposalApp() {
     date: null,
     time: "",
     food: [],
-    movie: "",
+    drink: "",
     excitement: 50,
   });
 
@@ -271,18 +271,18 @@ export default function EnchantingDateProposalApp() {
      
     <motion.div key="step3" className="text-center" {...fadeInUp}>
       <h2 className="text-3xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What shall we watch together?
+        What shall we drink ?
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          "The Notebook",
-          "La La Land",
-          "Titanic",
-          "Pride and Prejudice",
-          "Anyone But You",
-          "Past Lives",
-          "Love at First Sight",
-          "Through My Window 3",
+          "Red wine",
+          "Cocktail",
+          "Vodka",
+          "Tequila",
+          "Champagne",
+          "Congnac",
+          "Juice",
+          "Water",
           "Something else",
         ].map((movie) => (
           <motion.button
@@ -293,7 +293,7 @@ export default function EnchantingDateProposalApp() {
             onClick={() => {
               if (movie === "Something else") {
                 const customMovie = prompt(
-                  "What movie would you like to watch?"
+                  "What would you like to drink?"
                 );
                 if (customMovie) handleAnswer("movie", customMovie);
               } else {
@@ -389,7 +389,7 @@ export default function EnchantingDateProposalApp() {
         className="mt-8 space-y-3 text-lg text-pink-600 font-poppins"
       >
         <p className="text-base">We&apos;ll enjoy some delicious <span className="font-semibold">{answers.food.join(", ")}</span>.</p>
-        <p className="text-base">Then we&apos;ll watch <span className="font-semibold italic">&quot;{answers.movie}&quot;</span> together.</p>
+        <p className="text-base">Then we&apos;ll drink <span className="font-semibold italic">&quot;{answers.movie}&quot;</span> together.</p>
         <p className="text-xl font-playfair font-bold mt-6">
           Your excitement level: <span className="text-rose-600">{answers.excitement}/100</span>
         </p>
