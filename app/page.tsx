@@ -115,7 +115,7 @@ export default function EnchantingDateProposalApp() {
           }}
           className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105"
         >
-          Oh yes, I&apos;m In!
+          Yes, I&apos;m In!
         </Button>
         <Dialog>
           <DialogTrigger asChild>
