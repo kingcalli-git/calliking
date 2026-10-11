@@ -35,7 +35,7 @@ interface Answers {
   date: Date | null;
   time: string;
   food: string[];
-  drink: string;
+  movie: string;
   excitement: number;
 }
 
@@ -58,7 +58,7 @@ export default function EnchantingDateProposalApp() {
     date: null,
     time: "",
     food: [],
-    drink: "",
+    movie: "",
     excitement: 50,
   });
 
