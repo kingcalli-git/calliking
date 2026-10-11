@@ -97,7 +97,7 @@ export default function EnchantingDateProposalApp() {
     
     <motion.div key="step0" className="text-center" {...fadeInUp}>
       <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        Hey Simmy, it's been a while. Let me take you out on a date ?
+        Hey Simmy, it's been a while. I&apos;d love to take you out on a date ?
       </h1>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -352,7 +352,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step5" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={6} totalSteps={6}>
       <h2 className="text-5xl sm:text-6xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        It&apos;s a date, my love!
+        It&apos;s a date, fine girl!
       </h2>
       <p className="text-lg text-rose-500 mb-3 font-poppins">
         I can&apos;t wait to see you on:
