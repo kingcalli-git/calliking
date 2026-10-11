@@ -161,7 +161,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step1" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={1} totalSteps={6}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        YEYYYYYYYY, So When Can I Steal You Away For A Bit? LOL
+        YEYYY, So when can I steal you away for a bit? LOL
       </h2>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
